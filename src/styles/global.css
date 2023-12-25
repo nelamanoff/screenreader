@@ -1,0 +1,39 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+a {
+  color: #1976d2;
+  font-weight: 500;
+}
+
+p {
+  padding-bottom: 5px;
+}
+.link-with-image span {
+  margin-left: 8px;
+}
+h3 {
+  font-size: 1.17em;
+}
+details {
+  background-color: rgb(97 175 254 / 11%);
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid rgb(238 246 255);
+  border-radius: 5px;
+}
+summary {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+summary:hover {
+  color: #1976d2;
+}
+
+details p {
+  padding: 5px;
+}
